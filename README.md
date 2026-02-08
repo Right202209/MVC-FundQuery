@@ -1,7 +1,5 @@
-# FundPortal
+# MVC-FundQuery
 
-[![Java CI with Maven](https://github.com/your-username/exam2/actions/workflows/build.yml/badge.svg)](https://github.com/your-username/exam2/actions/workflows/build.yml)
-[![Release](https://github.com/your-username/exam2/actions/workflows/release.yml/badge.svg)](https://github.com/your-username/exam2/actions/workflows/release.yml)
 
 **FundPortal** is a lightweight, Jakarta EE-based web application designed for housing fund inquiry and management. It follows the classic MVC (Model-View-Controller) architecture and provides a secure, efficient way for users to check their balances and manage their accounts.
 
