@@ -3,6 +3,7 @@
 
 
 <configuration>
+    <properties resource="db.properties"/>
     <typeAliases>
         <typeAlias type="com.qqhru.exam2.model.User" alias="User" />
         <typeAlias type="com.qqhru.exam2.model.FundAccount" alias="FundAccount" />
@@ -11,10 +12,10 @@
         <environment id="development">
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/test_db"/>
-                <property name="username" value="root"/>
-                <property name="password" value="root"/>
+                <property name="driver" value="${db.driver}"/>
+                <property name="url" value="${db.url}"/>
+                <property name="username" value="${db.username}"/>
+                <property name="password" value="${db.password}"/>
             </dataSource>
         </environment>
     </environments>
