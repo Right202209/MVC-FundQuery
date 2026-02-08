@@ -1,7 +1,7 @@
 # MVC-FundQuery
 
 
-**FundPortal** is a lightweight, Jakarta EE-based web application designed for housing fund inquiry and management. It follows the classic MVC (Model-View-Controller) architecture and provides a secure, efficient way for users to check their balances and manage their accounts.
+**MVC-FundQuery** is a lightweight, Jakarta EE-based web application designed for housing fund inquiry and management. It follows the classic MVC (Model-View-Controller) architecture and provides a secure, efficient way for users to check their balances and manage their accounts.
 
 [中文文档](./README.md#中文说明)
 
@@ -79,7 +79,7 @@ Copy the generated `.war` file to the `webapps` directory of your Tomcat server.
 
 ## 中文说明
 
-**FundPortal** 是一个基于 Jakarta EE 的轻量级公积金查询与管理系统。
+**MVC-FundQuery** 是一个基于 Jakarta EE 的轻量级公积金查询与管理系统。
 
 ### 核心功能
 - **双重登录**：支持身份证号或公积金账号登录。
